@@ -1,3 +1,15 @@
-# fs-portfolio
+# Bootcamp-Challenge2
+## User Story
 
-## Making an online portfolio to showcase my design work and html/css work in order to complete a challenge.
+
+
+
+
+What I've done in order to complete the challenge:
+
+
+
+
+Final deployment, Repository and Url share in order to complete the challenge.
+
+Links
