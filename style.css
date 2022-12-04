@@ -8,6 +8,7 @@ font-family: "Montserrat";
 height: 2000px;
 }
 
+
 header {
     font-size: 80px;
     background-color: black;
@@ -51,6 +52,7 @@ align-items: center;
    grid-template-columns: 1fr 1fr 1fr;
    justify-content:space-evenly;
    height: 1200px;
+   flex-wrap: wrap;
    }
  
   .grid-item1 {
@@ -91,7 +93,7 @@ align-items: center;
 }
 
 .grid-item6 {
-    background-image: url("images/Coffee\ menu_gskitchen.jpg");
+    background-image: url("images/Artboard\ 1.jpg");
     background-position:center;
     background-size: cover;
     background-color: black;
@@ -100,6 +102,8 @@ align-items: center;
 nav a:hover {
     background-color: rgb(0, 0, 0);
     border-color: rgb(131, 12, 12);
+    
+
 }
 
 .grid-item1 h2:hover {
@@ -118,7 +122,7 @@ nav a:hover {
 
 .nav2 {
     color: whitesmoke;
-    justify-content:space-evenly;
+    justify-content:center;
     align-items: center;
 }
   
@@ -130,10 +134,15 @@ p {
     margin-top: 10px;
     align-items: flex-start;
     justify-content: first baseline;
+    
 }
 
+p:hover {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(131, 12, 12);
+}
   a {
-    font-size: 20px;
+    font-size: 24px;
     color: whitesmoke;
     margin-left: 10px;
 }
@@ -180,17 +189,6 @@ p {
     width: 900px;
 }
 
-.flex-container3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 400px;
-    background-image: linear-gradient(
-        rgb(255, 0, 0) 0%,
-        rgb(0, 0, 0) 100%   );
-    
-}
 
 
 .flex-item-3 {
@@ -212,10 +210,21 @@ p {
     width: 400px;
     background-color: white;
 }
+
+h3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    justify-content: center;
+    align-content: center;
+}
 @media screen and (min-width: 768px) {
     /* on tablets, set columns to only be 50% of the width and not grow */
     .card-column {
       flex: 0 0 100%;
       max-width: 50%;
     }}
+
+iframe { margin-left: 250px;
+}
 
