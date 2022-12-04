@@ -1,5 +1,5 @@
-# Bootcamp-Challenge2
-## User Story
+# FS Design Portfolio
+## A website to showcase some works I've done as a freelancer.
 
 
 
