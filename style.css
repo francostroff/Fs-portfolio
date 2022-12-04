@@ -3,6 +3,8 @@ padding: 0;
 margin: 0;
 }
 
+html { scroll-behavior: smooth;} 
+
 body { 
 font-family: "Montserrat";
 height: 2000px;
@@ -189,8 +191,6 @@ p:hover {
     width: 900px;
 }
 
-
-
 .flex-item-3 {
 
     height: 300px;
@@ -225,6 +225,6 @@ h3 {
       max-width: 50%;
     }}
 
-iframe { margin-left: 250px;
+iframe { margin-left: 500px;
 }
 
