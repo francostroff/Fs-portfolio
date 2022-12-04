@@ -27,7 +27,6 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 30px;
     background-image: linear-gradient(
         rgb(255, 0, 0) 0%,
         rgb(0, 0, 0) 100%
@@ -118,9 +117,8 @@ nav a:hover {
 }
 
 .nav2 {
-    margin-left:0px;
     color: whitesmoke;
-    justify-content:center;
+    justify-content:space-evenly;
     align-items: center;
 }
   
@@ -162,17 +160,17 @@ p {
 
 }
 
-.Illustration1 {
+.Title1 {
     color: rgb(255, 255, 255);
     font-size: 30px;
 }
 
-.Illustration2 {
+.Title2 {
     color: rgb(255, 255, 255);
     font-size: 30px
 
 }
-.Illustration3 {
+.Title3 {
     color: rgb(255, 255, 255);
     font-size: 30px;
 }
@@ -183,12 +181,36 @@ p {
 }
 
 .flex-container3 {
-    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
     background-image: linear-gradient(
         rgb(255, 0, 0) 0%,
-        rgb(0, 0, 0) 100%
-      );
+        rgb(0, 0, 0) 100%   );
     
+}
+
+
+.flex-item-3 {
+
+    height: 300px;
+    width: 400px;
+    background-color: white;
+}
+
+.flex-item-4 {
+
+    height: 300px;
+    width: 400px;
+    background-color: white;
+}
+.flex-item-5 {
+
+    height: 300px;
+    width: 400px;
+    background-color: white;
 }
 @media screen and (min-width: 768px) {
     /* on tablets, set columns to only be 50% of the width and not grow */
