@@ -14,3 +14,6 @@ Applied some simple css code found on the web for hover transitions.
 ## Final deployment, Repository and Url share in order to complete the challenge.
 
 # Links
+
+Repository - https://github.com/francostroff/fs-portfolio
+Live URL - https://francostroff.github.io/fs-portfolio/
