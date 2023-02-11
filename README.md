@@ -16,7 +16,7 @@ Live URL - https://francostroff.github.io/fs-portfolio/
 
 The following image shows the web application's appearance and functionality:
 
-![](images/fs-webscreenshot.mov)
+![](images/Screenshot%202023-02-11%20at%2022.31.22%20(2).png)
 
 ## What I've done in order to complete the challenge:
 Used HTML for structure and CSS for styling the website.
