@@ -41,7 +41,7 @@ nav {
  position: relative;
  }
       
-     .nav:before {
+ .nav:before {
         position: absolute;
         background-color:rgb(255, 255, 255);
         content: "";
@@ -82,8 +82,6 @@ a {
     height: 100px;
     margin-top: 30px;
 }
-
-
 
 .F {
     display: flex;
@@ -202,6 +200,28 @@ align-items: center;
         background-repeat: no-repeat;
         }
 
+      
+        
+         #Portfolio {
+         position: relative;
+         }
+              
+             #Portfolio:before {
+                position: absolute;
+                background-color:rgb(255, 255, 255);
+                content: "";
+                display: flex;
+                width: 0%;
+                height: 5px;
+                left: 0;
+                bottom: 0;
+                transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+              }
+              
+         #POrtfolio:hover:before {
+           color: rgb(255, 255, 255);
+            width: 100%;
+         }
 
 .flex-container2 {
     display: flex;
